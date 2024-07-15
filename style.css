@@ -1,17 +1,18 @@
 body{
     height: 100vh;
-    background: url("img/pexels-ifreestock-585753.jpg");
+    background: url("img/pexels-maksgelatin-4352247.jpg");
     background-position: center;
     background-size: cover;
 
 
+
 }
 header {
-    position: fixed;
-    top: 0;
-    left: 0;
+    position: absolute;
+    top: 10;
+    left: 5;
     width: 100%;
-    padding: 20px;
+    padding: 26px;
 
 }
 header .navbar {
@@ -27,22 +28,22 @@ header .navbar {
     font-weight: 600;
 }
 .navbar .logo span {
-    color: #C0683E;
+    color: #be8f52;
 
 }
 .navbar .menu-links {
     display: flex;
-    gap: 40px;
+    gap: 60px;
 
 }
 .navbar a {
-    color: #fff;
-    text-decoration: none;
+    color: #aa9244;
+    text-decoration: floralwhite;
     transition: 0.2s ease;
 
 }
 .navbar a:hover {
-    color: #C0683E;
+    color: #311e02;
 
 }
 .hero-section {
@@ -52,40 +53,38 @@ header .navbar {
     padding: 0 20px;
 }
 .hero-section .content {
-    color: #fff;
+    color: #0f0e0d;
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
+    text-align: center;
 }
 .hero-section .content h1{
-    font-size: 3rem;
-    min-width: 600px;
-    color: #C0683E;
+    font-size: 2rem;
+    min-width: 800px;
+    color: #b4781d;
+    text-align: center;
 }
 .hero-section .content p {
-    font-weight: 300;
+    font-weight: 250;
     margin-top: 15px;
     min-width: 600px;
 }
 .hero-section .content button {
-    background: #fff;
+    background: #db8e29;
     outline: none;
     border: none;
     font-size: 1rem;
     font-weight: 500;
-    margin-top: 38px;
-    padding: 12px 30px;
+    margin-top: 45px;
+    padding: 15px 35px;
     border-radius: 6px;
-    cursor: pointer;
-    transition: 0.2s ease;
+    cursor: grab;
+    transition: 0.5s ease;
 
 }
 .hero-section .content button:hover {
  color: #fff;
- background: #C0683E;
+ background: #645944fd;
 
 }
-
-
-
-
